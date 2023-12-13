@@ -1,0 +1,184 @@
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50; /* Цвет фона верхней строки */
+    color: #fff; /* Цвет текста верхней строки */
+    padding: 10px; /* Внутренний отступ верхней строки */
+    z-index: 1000; /* Значение z-index для управления слоем (если необходимо) */
+  }
+
+button.top-bar.LogOut {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: 2px solid #4CAF50; /* Ширина и цвет границ */
+    width: 200px;
+    height: 100%; 
+  }
+button.top-bar.LogOut:hover{
+    background-color: #45a049;
+}
+
+button.top-bar.Menu {
+    position: absolute;
+    left: 85%;
+    right: 0;
+    border: 2px solid #4CAF50; /* Ширина и цвет границ */
+    width: 200px;
+    height: 100%; 
+  }
+button.top-bar.Menu:hover{
+    background-color: #45a049;
+}
+
+button.top-bar.AddTask {
+    position: absolute;
+    left: 1000px;
+    right: 0;
+    border: 2px solid #4CAF50; /* Ширина и цвет границ */
+    width: 200px;
+    height: 92px; 
+  }
+button.top-bar.AddTask:hover{
+    background-color: #45a049;
+}
+
+.modal-content {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    max-width: 230px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #d7d7d7;
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .modal-content button {
+    /* Ваши стили для кнопок внутри модального окна */
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+.modal-content input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box; /* Учитываем padding внутри input */
+}
+
+  .modal-menu {
+    top: 92px;
+    right: 0;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .modal-add{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    max-width: 230px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #d7d7d7;
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .modal-add{
+    top: 92px;
+    right: 260px;
+  }
+
+  .modal-add button {
+    /* Ваши стили для кнопок внутри модального окна */
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+.modal-add input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box; /* Учитываем padding внутри input */
+}
+  
+  
+  /* Стиль для контента страницы, чтобы учесть высоту верхней строки */
+  .page-content {
+    margin-top: 200px; /* Значение должно быть равным высоте верхней строки + ее внутренний отступ */
+  }
+
+  .modal-edit{
+    position: fixed;
+    top: 0;
+    width: 50%;
+    max-width: 230px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #d7d7d7;
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .modal-edit{
+    top: 92px;
+    right: 0px;
+  }
+
+  .modal-edit button {
+    /* Ваши стили для кнопок внутри модального окна */
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .modal-edit.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+.modal-edit input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box; /* Учитываем padding внутри input */
+}
+

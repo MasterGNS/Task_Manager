@@ -1,0 +1,34 @@
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Центрирование по вертикали на всю высоту окна */
+  }
+  
+  /* Стили для кнопок */
+  button.EnterButton {
+    margin-top: 10px; /* Пространство между кнопками и формой */
+    padding: 10px; /* Добавим немного отступа вокруг текста кнопок */
+    cursor: pointer;
+    background-color: #4CAF50; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем границу кнопки */
+    border-radius: 5px; /* Закругляем углы кнопки */
+    width: 150px; /* Пример: установите ширину кнопки по вашему желанию */
+    display: block; /* Делаем кнопку блочным элементом */
+    margin: 0 auto; /* Автоматическое выравнивание по центру по горизонтали */
+  }
+
+  input.EnterForm{
+    margin-top: 10px;
+    padding: 15px; /* Увеличиваем отступ вокруг текста в полях ввода */
+    margin-bottom: 20px;
+    width: 300px; /* Увеличиваем ширину полей ввода */
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Добавляем границу для более четкого отображения */
+  }
+  
+  button.EnterButton:hover {
+    background-color: #45a049; /* Изменяем цвет фона при наведении курсора */
+  }
